@@ -100,8 +100,8 @@ summary::after { content: "";
    }
    @media (max-width:768px) {
     summary::after{
-      width: 100px;
-      left: 38%;
+      width: 110px;
+      left: 29%;
     }
    }
 
