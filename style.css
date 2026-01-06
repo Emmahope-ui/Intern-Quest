@@ -35,7 +35,7 @@ header {
     color:#0077b6; 
     font-size:24px; 
 }
-@media (max-width:424px) {
+@media (max-width:1080px) {
     .brand{
       font-size: 0.7rem;
       margin: 0 3px;
@@ -131,6 +131,11 @@ a{
   border-radius: 50px;
   color: #fff;
   padding: 14px;
+}
+@media (max-width:1024px) {
+  .search-bar .fa-search{
+    padding: 12px;
+  }
 }
 
 /* Categories */
