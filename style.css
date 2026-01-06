@@ -112,6 +112,7 @@ a{
   border: 1px solid #ccc;
   outline: none;
   transition: border-color 0.3s, box-shadow 0.3s;
+  height: 5vh;
 }
 
 .search-bar input[type="search"]:focus {
@@ -121,11 +122,15 @@ a{
 
 .search-bar .fa-search {
   position: absolute;
-  right: 14px;
+  right: 0;
   top: 50%;
   transform: translateY(-50%);
   color: #888;
   pointer-events: none;
+  background: #0077b6;
+  border-radius: 50px;
+  color: #fff;
+  padding: 14px;
 }
 
 /* Categories */
