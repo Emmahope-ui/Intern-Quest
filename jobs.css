@@ -3,6 +3,7 @@
   display: none;
 }
 .two-flexes {
+  min-width: 0;
   display: grid;
   grid-template-columns:  repeat(1, 1fr);
   row-gap: 20px;
@@ -100,6 +101,7 @@ summary::after { content: "";
    }
    @media (max-width:768px) {
     summary::after{
+      display: none;
       width: 110px;
       left: 29%;
     }

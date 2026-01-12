@@ -27,7 +27,7 @@ header {
     border-radius: 30px;
     position: fixed;
     right: 10px;
-    height: 2vh;
+    max-height: 2vh;
   }
 }
 .brand { 
@@ -35,7 +35,7 @@ header {
     color:#0077b6; 
     font-size:24px; 
 }
-@media (max-width:1080px) {
+@media (max-width:1080pxk) {
     .brand{
       font-size: 0.7rem;
       margin: 0 3px;
