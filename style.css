@@ -94,6 +94,11 @@ a{
     padding-top: 100px;
     color: #0077B5;
 }
+@media (max-width:450px) {
+  .hero h1{
+    padding-top: 0;
+  }
+}
 .hero p { 
     margin-bottom:18px; 
     opacity:0.95; 
