@@ -125,3 +125,7 @@ summary::after { content: "";
   text-decoration: none;
   border-radius: 6px;
 }
+.type{
+  text-align: center;
+  color: red;
+}
